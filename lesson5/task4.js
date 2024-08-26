@@ -1,4 +1,4 @@
-const number = 6;
+let number = 6;
 
 // number % 2 == 0
 //     ? (
@@ -8,4 +8,10 @@ const number = 6;
 //         console.log('Значение ', number, ' - нечётное число')
 //     );
 
-console.log(${number} - ${number} % 2 == 0? 'чётное' : 'нечётное' + 'число');
+number % 2 === 0
+    ? (
+        console.log(number, ': нечётное число')
+    )
+    : (
+        console.log(number, ': нечётное число')
+    )

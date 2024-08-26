@@ -3,16 +3,16 @@ let grade = 1;
 switch (grade) {
     case 5:
         console.log('Отлично');
-    break;
+        break;
     case 4:
         console.log('Хорошо');
-    break;
+        break;
     case 3:
         console.log('Удовлетворительно');
-    break;
+        break;
     case 2:
         console.log('Неудовлетворительно');
-    break;
+        break;
     default:
         console.log('Неизвестно');
 }
