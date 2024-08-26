@@ -1,7 +1,7 @@
-let x = 70;
+let i = 40;
+let j = 70;
 
-while (x > 40) {
-    x --;
-    if (x % 2 == 0) continue;
-    console.log(x);
+while (i < j) {
+    j--;
+    if (j % 2 != 0) console.log(j);
 }
