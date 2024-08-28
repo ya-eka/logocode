@@ -6,10 +6,22 @@
 //     console.log(number);
 // }
 
+// let numMin = 45;
+// let numMax = 170;
+
+// while (numMin <= numMax) {
+//     if (numMin % 10 === 0) console.log(numMin);
+//     numMin++;
+// }
+
 let numMin = 45;
 let numMax = 170;
 
+while (numMin % 10 != 0) (
+    numMin++
+);
+
 while (numMin <= numMax) {
-    if (numMin % 10 === 0) console.log(numMin);
-    numMin++;
+    console.log(numMin);
+    numMin += 10;
 }

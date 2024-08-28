@@ -9,12 +9,23 @@
 //     } break;
 // }
 
+// let numMin = 50;
+// let numMax = 1000;
+// let i = 0;
+
+// while (numMax > numMin) {
+//     numMax = numMax / 2;
+//     if (numMax < numMin) console.log('Количество итераций необходимых для выхода из цикла: ' + i);
+//     i++;
+// }
+
 let numMin = 50;
 let numMax = 1000;
-let i = 0;
+let count = 0;
 
-while (numMax > numMin) {
+while (numMax >= numMin) {
     numMax = numMax / 2;
-    if (numMax < numMin) console.log('Количество итераций необходимых для выхода из цикла: ' + i);
-    i++;
+    count++;
 }
+
+console.log(count);
