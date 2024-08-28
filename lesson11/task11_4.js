@@ -1,4 +1,5 @@
 function evenOrOdd(num) {
-    return (num % 2 === 0) ? console.log('чётное') : console.log('нечётное')
+    return (num % 2 === 0) ? 'чётное' : 'нечётное'
 };
-//evenOrOdd(5);
+
+//console.log(evenOrOdd(0));
