@@ -35,7 +35,7 @@ let squareNumber = (num) => num ** 2;
 
 function check(x) {
    try {
-      if ((18 < x) & (x < 50)) {
+      if ((18 <= x) & (x <= 50)) {
          console.log(squareNumber(x))
       }
       else {
